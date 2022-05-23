@@ -86,9 +86,65 @@ section {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     grid-gap: 30px;
+    align-items: center;
+    
 
 }
 
 section img{
-    width: 75%;
+    width: 100%;
+}
+
+section p{
+    font-size: 30px;
+    font-family: fatBOI;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 30px;
+   
+}
+
+.products img {
+    width: 350px;
+}
+
+.products p{
+    font-size: 25px;
+    font-family: fatBOI;
+}
+
+.info p {
+    font-size: 20px;
+    font-family: fatBOI;                       
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 30px;
+
+    
+}
+
+.boxBottom {
+    display: block;
+    width: 80%;
+    grid-column: span 2;
+    background-color: white;
+    margin: 30px auto;
+    align-self: end;
+    padding: 30px;
+    border: 10px solid black;
+    font-family: fatBOI;
+}
+
+
+.map{
+    width: 500px;
+    height: 500px;
 }
